@@ -19,6 +19,7 @@ st.markdown("""
 [data-testid="stToolbar"] {
     display: none;
 }
+MainMenu {visibility: hidden;}
 footer {
     visibility: hidden;
 }
