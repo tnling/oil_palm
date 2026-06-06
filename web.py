@@ -12,12 +12,6 @@ st.set_page_config(
     layout="centered"
 )
 
-# CSS THEME
-hide_footer_style = """
-    <style>
-    footer {visibility: hidden;}
-    </style>
-"""
 st.markdown(hide_footer_style)
 
 st.markdown("""
@@ -31,7 +25,7 @@ MainMenu {visibility: hidden;}
 header {
     visibility: hidden;
 }
-
+footer {visibility: hidden;}
 .viewerBadge_container__1QSob {visibility: hidden;} 
 
 /* Hide Streamlit floating widgets */
