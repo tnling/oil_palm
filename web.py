@@ -12,8 +12,6 @@ st.set_page_config(
     layout="centered"
 )
 
-st.markdown(hide_footer_style)
-
 st.markdown("""
 <style>
 
