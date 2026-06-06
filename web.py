@@ -18,7 +18,7 @@ hide_footer_style = """
     footer {visibility: hidden;}
     </style>
 """
-st.html(hide_footer_style)
+st.markdown(hide_footer_style)
 
 st.markdown("""
 <style>
