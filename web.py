@@ -30,6 +30,11 @@ header {
 [data-testid="stStatusWidget"] {
     display: none;
 }
+
+button[kind="header"] {
+    display: none;
+}
+
 .stApp {
     background: linear-gradient(165deg,#EEEE90, #C7F6C7, #064e3b);
     color: black;
