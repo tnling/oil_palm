@@ -79,7 +79,7 @@ if "upload_key" not in st.session_state:
 # LOAD MODEL
 @st.cache_resource
 def load_model():
-    checkpoint = torch.load("DenseNet121_best.pth", map_location="cpu"，weights_only=False)
+    checkpoint = torch.load("DenseNet121_best.pth", map_location="cpu", weights_only=False)
 
     classes = checkpoint["label_classes"]
 
