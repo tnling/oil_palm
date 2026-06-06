@@ -13,6 +13,13 @@ st.set_page_config(
 )
 
 # CSS THEME
+hide_footer_style = """
+    <style>
+    footer {visibility: hidden;}
+    </style>
+"""
+st.st.html(hide_footer_style)
+
 st.markdown("""
 <style>
 
@@ -20,9 +27,7 @@ st.markdown("""
     display: none;
 }
 MainMenu {visibility: hidden;}
-footer {
-    visibility: hidden!important;
-}
+
 header {
     visibility: hidden;
 }
