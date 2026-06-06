@@ -16,6 +16,16 @@ st.set_page_config(
 st.markdown("""
 <style>
 
+[data-testid="stToolbar"] {
+    display: none;
+}
+footer {
+    visibility: hidden;
+}
+header {
+    visibility: hidden;
+}
+
 .stApp {
     background: linear-gradient(165deg,#EEEE90, #C7F6C7, #064e3b);
     color: black;
