@@ -26,6 +26,8 @@ header {
     visibility: hidden;
 }
 
+.viewerBadge_container__1QSob {visibility: hidden;} 
+
 /* Hide Streamlit floating widgets */
 [data-testid="stStatusWidget"] {
     display: none;
