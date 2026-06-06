@@ -1,11 +1,1 @@
 # oil_palm
-streamlit
-torch
-torchvision
-tensorflow
-numpy
-pandas
-pillow
-opencv-python-headless
-scikit-learn
-matplotlib
